@@ -1,0 +1,324 @@
+09:38:15.909,Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@6cc558c6: startup date [Tue Feb 27 09:38:15 CST 2018]; root of context hierarchy
+09:38:16.526,JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+09:38:16.647,Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$31aaed69] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:38:16.669,HV000001: Hibernate Validator 5.3.6.Final
+09:38:17.761,No active profile set, falling back to default profiles: default
+09:38:17.790,Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@e93f3d5: startup date [Tue Feb 27 09:38:17 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@6cc558c6
+09:38:20.026,BeanFactory id=561935aa-321c-390d-a9b5-af85a74f3251
+09:38:20.071,JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+09:38:20.163,Bean 'com.nhb.nb.feign.DeviceManageFeign' of type [org.springframework.cloud.netflix.feign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:38:20.256,Bean 'org.springframework.cloud.netflix.metrics.MetricsInterceptorConfiguration$MetricsRestTemplateConfiguration' of type [org.springframework.cloud.netflix.metrics.MetricsInterceptorConfiguration$MetricsRestTemplateConfiguration$$EnhancerBySpringCGLIB$$47bd90ad] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:38:20.299,Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$31aaed69] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:38:21.262,Tomcat initialized with port(s): 9091 (http)
+09:38:21.281,Starting service [Tomcat]
+09:38:21.283,Starting Servlet Engine: Apache Tomcat/8.5.27
+09:38:21.572,Initializing Spring embedded WebApplicationContext
+09:38:21.572,Root WebApplicationContext: initialization completed in 3783 ms
+09:38:22.091,Mapping servlet: 'dispatcherServlet' to [/]
+09:38:22.103,Mapping filter: 'metricsFilter' to: [/*]
+09:38:22.104,Mapping filter: 'characterEncodingFilter' to: [/*]
+09:38:22.104,Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+09:38:22.105,Mapping filter: 'httpPutFormContentFilter' to: [/*]
+09:38:22.105,Mapping filter: 'requestContextFilter' to: [/*]
+09:38:22.105,Mapping filter: 'webRequestLoggingFilter' to: [/*]
+09:38:22.105,Mapping filter: 'applicationContextIdFilter' to: [/*]
+09:38:23.600,Cluster created with settings {hosts=[192.168.1.90:17000], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+09:38:23.600,Adding discovered server 192.168.1.90:17000 to client view of cluster
+09:38:23.741,Opened connection [connectionId{localValue:1, serverValue:1122}] to 192.168.1.90:17000
+09:38:23.748,Monitor thread successfully connected to server with description ServerDescription{address=192.168.1.90:17000, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 6]}, minWireVersion=0, maxWireVersion=5, maxDocumentSize=16777216, roundTripTimeNanos=2623716}
+09:38:23.751,Discovered cluster type of STANDALONE
+09:38:24.117,Opened connection [connectionId{localValue:2, serverValue:1123}] to 192.168.1.90:17000
+09:38:24.403,Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@6b126187: startup date [Tue Feb 27 09:38:24 CST 2018]; parent: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@e93f3d5
+09:38:24.446,JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+09:38:25.842,Mapped "{[/nbiot/v1/area/add],methods=[POST]}" onto public com.nhb.utils.nhb_utils.common.RestResultDto com.nhb.nb.controller.area.SysAreaController.add(com.nhb.nb.request.area.AreaRequest)
+09:38:25.845,Mapped "{[/nbiot/v1/area/delete],methods=[POST]}" onto public com.nhb.utils.nhb_utils.common.RestResultDto com.nhb.nb.controller.area.SysAreaController.delete(com.nhb.nb.request.area.AreaRequest)
+09:38:25.846,Mapped "{[/nbiot/v1/area/list],methods=[POST]}" onto public com.nhb.utils.nhb_utils.common.RestResultDto com.nhb.nb.controller.area.SysAreaController.list(com.nhb.nb.request.area.AreaRequest)
+09:38:25.847,Mapped "{[/nbiot/v1/area/findById],methods=[POST]}" onto public com.nhb.utils.nhb_utils.common.RestResultDto com.nhb.nb.controller.area.SysAreaController.findById(com.nhb.nb.request.area.AreaRequest)
+09:38:25.848,Mapped "{[/nbiot/v1/area/modify],methods=[POST]}" onto public com.nhb.utils.nhb_utils.common.RestResultDto com.nhb.nb.controller.area.SysAreaController.modify(com.nhb.nb.request.area.AreaRequest)
+09:38:25.851,Mapped "{[/nbiot/v1/data/history],methods=[POST]}" onto public com.nhb.utils.nhb_utils.common.RestResultDto com.nhb.nb.controller.data.DataController.findHistoryData(com.nhb.nb.request.data.DataHistoryRequest)
+09:38:25.852,Mapped "{[/nbiot/v1/data/realtime],methods=[POST]}" onto public com.nhb.utils.nhb_utils.common.RestResultDto com.nhb.nb.controller.data.DataController.findRealtimeData(com.nhb.nb.request.data.DataRealtimeRequest)
+09:38:25.855,Mapped "{[/nbiot/v1/device/add],methods=[POST]}" onto public com.nhb.utils.nhb_utils.common.RestResultDto com.nhb.nb.controller.device.DeviceController.add(com.nhb.nb.request.device.DeviceRequest)
+09:38:25.856,Mapped "{[/nbiot/v1/device/delete],methods=[POST]}" onto public com.nhb.utils.nhb_utils.common.RestResultDto com.nhb.nb.controller.device.DeviceController.delete(com.nhb.nb.request.device.DeviceRequest)
+09:38:25.856,Mapped "{[/nbiot/v1/device/list],methods=[POST]}" onto public com.nhb.utils.nhb_utils.common.RestResultDto com.nhb.nb.controller.device.DeviceController.list()
+09:38:25.856,Mapped "{[/nbiot/v1/device/findById],methods=[POST]}" onto public com.nhb.utils.nhb_utils.common.RestResultDto com.nhb.nb.controller.device.DeviceController.findById(com.nhb.nb.request.device.DeviceRequest)
+09:38:25.857,Mapped "{[/nbiot/v1/device/modify],methods=[POST]}" onto public com.nhb.utils.nhb_utils.common.RestResultDto com.nhb.nb.controller.device.DeviceController.modify(com.nhb.nb.request.device.DeviceRequest)
+09:38:25.864,Mapped "{[/nbiot/v1/user/delete],methods=[POST]}" onto public com.nhb.utils.nhb_utils.common.RestResultDto<java.lang.Object> com.nhb.nb.controller.user.SysUserController.delete(com.nhb.nb.request.user.UserRequest)
+09:38:25.864,Mapped "{[/nbiot/v1/user/findById],methods=[POST]}" onto public com.nhb.utils.nhb_utils.common.RestResultDto<java.lang.Object> com.nhb.nb.controller.user.SysUserController.findById(com.nhb.nb.request.user.LoginRequest)
+09:38:25.865,Mapped "{[/nbiot/v1/user/add],methods=[POST]}" onto public com.nhb.utils.nhb_utils.common.RestResultDto<java.lang.Object> com.nhb.nb.controller.user.SysUserController.addUser(com.nhb.nb.request.user.UserRequest)
+09:38:25.866,Mapped "{[/nbiot/v1/user/findList],methods=[POST]}" onto public com.nhb.utils.nhb_utils.common.RestResultDto<java.lang.Object> com.nhb.nb.controller.user.SysUserController.findList(com.nhb.nb.request.user.UserRequest)
+09:38:25.867,Mapped "{[/nbiot/v1/user/login],methods=[POST]}" onto public com.nhb.utils.nhb_utils.common.RestResultDto<java.lang.Object> com.nhb.nb.controller.user.SysUserController.login(com.nhb.nb.request.user.LoginRequest)
+09:38:25.868,Mapped "{[/nbiot/v1/user/modify],methods=[POST]}" onto public com.nhb.utils.nhb_utils.common.RestResultDto<java.lang.Object> com.nhb.nb.controller.user.SysUserController.modifyUser(com.nhb.nb.request.user.UserRequest)
+09:38:25.877,Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+09:38:25.878,Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+09:38:25.880,Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+09:38:25.888,Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+09:38:25.889,Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+09:38:27.685,Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+09:38:27.687,Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+09:38:27.689,Mapped "{[/service-registry/instance-status],methods=[GET]}" onto public org.springframework.http.ResponseEntity org.springframework.cloud.client.serviceregistry.endpoint.ServiceRegistryEndpoint.getStatus()
+09:38:27.690,Mapped "{[/service-registry/instance-status],methods=[POST]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.cloud.client.serviceregistry.endpoint.ServiceRegistryEndpoint.setStatus(java.lang.String)
+09:38:27.691,Mapped "{[/archaius || /archaius.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+09:38:27.693,Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+09:38:27.694,Mapped "{[/resume || /resume.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+09:38:27.698,Mapped "{[/loggers/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.get(java.lang.String)
+09:38:27.699,Mapped "{[/loggers/{name:.*}],methods=[POST],consumes=[application/vnd.spring-boot.actuator.v1+json || application/json],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.set(java.lang.String,java.util.Map<java.lang.String, java.lang.String>)
+09:38:27.701,Mapped "{[/loggers || /loggers.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+09:38:27.703,Mapped "{[/info || /info.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+09:38:27.704,Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+09:38:27.706,Mapped "{[/restart || /restart.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.restart.RestartMvcEndpoint.invoke()
+09:38:27.707,Mapped "{[/pause || /pause.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+09:38:27.710,Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+09:38:27.710,Mapped "{[/env || /env.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+09:38:27.712,Mapped "{[/env],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.value(java.util.Map<java.lang.String, java.lang.String>)
+09:38:27.712,Mapped "{[/env/reset],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.reset()
+09:38:27.717,Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+09:38:27.720,Mapped "{[/heapdump || /heapdump.json],methods=[GET],produces=[application/octet-stream]}" onto public void org.springframework.boot.actuate.endpoint.mvc.HeapdumpMvcEndpoint.invoke(boolean,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException,javax.servlet.ServletException
+09:38:27.721,Mapped "{[/features || /features.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+09:38:27.723,Mapped "{[/health || /health.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(javax.servlet.http.HttpServletRequest,java.security.Principal)
+09:38:27.726,Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+09:38:27.726,Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+09:38:27.731,Mapped "{[/auditevents || /auditevents.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.boot.actuate.endpoint.mvc.AuditEventsMvcEndpoint.findByPrincipalAndAfterAndType(java.lang.String,java.util.Date,java.lang.String)
+09:38:27.732,Mapped "{[/refresh || /refresh.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+09:38:27.734,Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+09:38:28.113,Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+09:38:28.599,Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@e93f3d5: startup date [Tue Feb 27 09:38:17 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@6cc558c6
+09:38:28.726,Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+09:38:28.726,Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+09:38:28.829,Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+09:38:29.486,No URLs will be polled as dynamic configuration sources.
+09:38:29.487,To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+09:38:29.500,No URLs will be polled as dynamic configuration sources.
+09:38:29.501,To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+09:38:29.881,Registering beans for JMX exposure on startup
+09:38:29.897,Bean with name 'environmentManager' has been autodetected for JMX exposure
+09:38:29.903,Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+09:38:29.904,Bean with name 'refreshEndpoint' has been autodetected for JMX exposure
+09:38:29.905,Bean with name 'restartEndpoint' has been autodetected for JMX exposure
+09:38:29.907,Bean with name 'serviceRegistryEndpoint' has been autodetected for JMX exposure
+09:38:29.908,Bean with name 'refreshScope' has been autodetected for JMX exposure
+09:38:29.913,Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+09:38:29.944,Located managed bean 'restartEndpoint': registering with JMX server as MBean [org.springframework.cloud.context.restart:name=restartEndpoint,type=RestartEndpoint]
+09:38:30.006,Located managed bean 'serviceRegistryEndpoint': registering with JMX server as MBean [org.springframework.cloud.client.serviceregistry.endpoint:name=serviceRegistryEndpoint,type=ServiceRegistryEndpoint]
+09:38:30.019,Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+09:38:30.043,Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=e93f3d5,type=ConfigurationPropertiesRebinder]
+09:38:30.052,Located managed bean 'refreshEndpoint': registering with JMX server as MBean [org.springframework.cloud.endpoint:name=refreshEndpoint,type=RefreshEndpoint]
+09:38:30.054,Registering beans for JMX exposure on startup
+09:38:30.399,Starting beans in phase 0
+09:38:30.422,Setting initial instance status as: STARTING
+09:38:30.493,Initializing Eureka in region us-east-1
+09:38:30.657,Using JSON encoding codec LegacyJacksonJson
+09:38:30.658,Using JSON decoding codec LegacyJacksonJson
+09:38:30.875,Using XML encoding codec XStreamXml
+09:38:30.875,Using XML decoding codec XStreamXml
+09:38:31.313,Resolving eureka endpoints via configuration
+09:38:31.644,Disable delta property : false
+09:38:31.644,Single vip registry refresh property : null
+09:38:31.644,Force full registry fetch : false
+09:38:31.644,Application is null : false
+09:38:31.644,Registered Applications size is zero : true
+09:38:31.644,Application version is -1: true
+09:38:31.645,Getting all instance registry info from the eureka server
+09:38:31.934,The response status is 200
+09:38:31.936,Starting heartbeat executor: renew interval is: 30
+09:38:31.941,InstanceInfoReplicator onDemand update allowed rate per min is 4
+09:38:31.947,Discovery Client initialized at timestamp 1519695511946 with initial instances count: 5
+09:38:32.010,Registering application nhb-nbiot with eureka with status UP
+09:38:32.012,Saw local status change event StatusChangeEvent [timestamp=1519695512012, current=UP, previous=STARTING]
+09:38:32.021,Located managed bean 'auditEventsEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=auditEventsEndpoint]
+09:38:32.039,Located managed bean 'featuresEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=featuresEndpoint]
+09:38:32.060,DiscoveryClient_NHB-NBIOT/xuyahui:nhb-nbiot:9091: registering service...
+09:38:32.072,Located managed bean 'requestMappingEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=requestMappingEndpoint]
+09:38:32.078,Located managed bean 'environmentEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=environmentEndpoint]
+09:38:32.084,Located managed bean 'healthEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=healthEndpoint]
+09:38:32.088,Located managed bean 'beansEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=beansEndpoint]
+09:38:32.104,Located managed bean 'infoEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=infoEndpoint]
+09:38:32.108,Located managed bean 'loggersEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=loggersEndpoint]
+09:38:32.136,Located managed bean 'metricsEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=metricsEndpoint]
+09:38:32.140,Located managed bean 'traceEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=traceEndpoint]
+09:38:32.144,Located managed bean 'dumpEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=dumpEndpoint]
+09:38:32.148,Located managed bean 'autoConfigurationReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=autoConfigurationReportEndpoint]
+09:38:32.152,Located managed bean 'configurationPropertiesReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=configurationPropertiesReportEndpoint]
+09:38:32.156,Located managed bean 'archaiusEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=archaiusEndpoint]
+09:38:32.158,Starting beans in phase 2147483647
+09:38:32.158,Context refreshed
+09:38:32.206,Found 1 custom documentation plugin(s)
+09:38:32.218,DiscoveryClient_NHB-NBIOT/xuyahui:nhb-nbiot:9091 - registration status: 204
+09:38:32.334,Scanning for api listing references
+09:38:32.611,Generating unique operation named: addUsingPOST_1
+09:38:32.620,Generating unique operation named: deleteUsingPOST_1
+09:38:32.629,Generating unique operation named: findByIdUsingPOST_1
+09:38:32.637,Generating unique operation named: listUsingPOST_1
+09:38:32.647,Generating unique operation named: modifyUsingPOST_1
+09:38:32.694,Generating unique operation named: deleteUsingPOST_2
+09:38:32.712,Generating unique operation named: findByIdUsingPOST_2
+09:38:32.821,Initializing ProtocolHandler ["http-nio-9091"]
+09:38:32.838,Starting ProtocolHandler ["http-nio-9091"]
+09:38:32.858,Using a shared selector for servlet write/read
+09:38:32.908,Tomcat started on port(s): 9091 (http)
+09:38:32.911,Updating port to 9091
+09:38:32.924,Started NhbNbApplication in 18.464 seconds (JVM running for 19.378)
+09:39:04.574,Initializing Spring FrameworkServlet 'dispatcherServlet'
+09:39:04.574,FrameworkServlet 'dispatcherServlet': initialization started
+09:39:04.636,FrameworkServlet 'dispatcherServlet': initialization completed in 62 ms
+09:43:01.759,Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@106cc338: startup date [Tue Feb 27 09:43:01 CST 2018]; root of context hierarchy
+09:43:02.308,JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+09:43:02.466,Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$172d7f21] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:43:02.522,HV000001: Hibernate Validator 5.3.6.Final
+09:43:03.851,No active profile set, falling back to default profiles: default
+09:43:03.878,Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@31611954: startup date [Tue Feb 27 09:43:03 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@106cc338
+09:43:06.111,BeanFactory id=561935aa-321c-390d-a9b5-af85a74f3251
+09:43:06.151,JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+09:43:06.228,Bean 'com.nhb.nb.feign.DeviceManageFeign' of type [org.springframework.cloud.netflix.feign.FeignClientFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:43:06.322,Bean 'org.springframework.cloud.netflix.metrics.MetricsInterceptorConfiguration$MetricsRestTemplateConfiguration' of type [org.springframework.cloud.netflix.metrics.MetricsInterceptorConfiguration$MetricsRestTemplateConfiguration$$EnhancerBySpringCGLIB$$2d402265] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:43:06.356,Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$172d7f21] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:43:07.333,Tomcat initialized with port(s): 9091 (http)
+09:43:07.348,Starting service [Tomcat]
+09:43:07.350,Starting Servlet Engine: Apache Tomcat/8.5.27
+09:43:07.649,Initializing Spring embedded WebApplicationContext
+09:43:07.649,Root WebApplicationContext: initialization completed in 3771 ms
+09:43:08.206,Mapping servlet: 'dispatcherServlet' to [/]
+09:43:08.215,Mapping filter: 'metricsFilter' to: [/*]
+09:43:08.215,Mapping filter: 'characterEncodingFilter' to: [/*]
+09:43:08.216,Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+09:43:08.216,Mapping filter: 'httpPutFormContentFilter' to: [/*]
+09:43:08.216,Mapping filter: 'requestContextFilter' to: [/*]
+09:43:08.216,Mapping filter: 'webRequestLoggingFilter' to: [/*]
+09:43:08.216,Mapping filter: 'applicationContextIdFilter' to: [/*]
+09:43:09.633,Cluster created with settings {hosts=[192.168.1.90:17000], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+09:43:09.634,Adding discovered server 192.168.1.90:17000 to client view of cluster
+09:43:09.761,Opened connection [connectionId{localValue:1, serverValue:1124}] to 192.168.1.90:17000
+09:43:09.766,Monitor thread successfully connected to server with description ServerDescription{address=192.168.1.90:17000, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[3, 4, 6]}, minWireVersion=0, maxWireVersion=5, maxDocumentSize=16777216, roundTripTimeNanos=2234777}
+09:43:09.768,Discovered cluster type of STANDALONE
+09:43:10.142,Opened connection [connectionId{localValue:2, serverValue:1125}] to 192.168.1.90:17000
+09:43:10.422,Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@1a4083f6: startup date [Tue Feb 27 09:43:10 CST 2018]; parent: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@31611954
+09:43:10.460,JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+09:43:11.936,Mapped "{[/nbiot/v1/area/add],methods=[POST]}" onto public com.nhb.utils.nhb_utils.common.RestResultDto com.nhb.nb.controller.area.SysAreaController.add(com.nhb.nb.request.area.AreaRequest)
+09:43:11.938,Mapped "{[/nbiot/v1/area/delete],methods=[POST]}" onto public com.nhb.utils.nhb_utils.common.RestResultDto com.nhb.nb.controller.area.SysAreaController.delete(com.nhb.nb.request.area.AreaRequest)
+09:43:11.938,Mapped "{[/nbiot/v1/area/list],methods=[POST]}" onto public com.nhb.utils.nhb_utils.common.RestResultDto com.nhb.nb.controller.area.SysAreaController.list(com.nhb.nb.request.area.AreaRequest)
+09:43:11.939,Mapped "{[/nbiot/v1/area/findById],methods=[POST]}" onto public com.nhb.utils.nhb_utils.common.RestResultDto com.nhb.nb.controller.area.SysAreaController.findById(com.nhb.nb.request.area.AreaRequest)
+09:43:11.939,Mapped "{[/nbiot/v1/area/modify],methods=[POST]}" onto public com.nhb.utils.nhb_utils.common.RestResultDto com.nhb.nb.controller.area.SysAreaController.modify(com.nhb.nb.request.area.AreaRequest)
+09:43:11.941,Mapped "{[/nbiot/v1/data/history],methods=[POST]}" onto public com.nhb.utils.nhb_utils.common.RestResultDto com.nhb.nb.controller.data.DataController.findHistoryData(com.nhb.nb.request.data.DataHistoryRequest)
+09:43:11.942,Mapped "{[/nbiot/v1/data/realtime],methods=[POST]}" onto public com.nhb.utils.nhb_utils.common.RestResultDto com.nhb.nb.controller.data.DataController.findRealtimeData(com.nhb.nb.request.data.DataRealtimeRequest)
+09:43:11.944,Mapped "{[/nbiot/v1/device/add],methods=[POST]}" onto public com.nhb.utils.nhb_utils.common.RestResultDto com.nhb.nb.controller.device.DeviceController.add(com.nhb.nb.request.device.DeviceRequest)
+09:43:11.944,Mapped "{[/nbiot/v1/device/delete],methods=[POST]}" onto public com.nhb.utils.nhb_utils.common.RestResultDto com.nhb.nb.controller.device.DeviceController.delete(com.nhb.nb.request.device.DeviceRequest)
+09:43:11.945,Mapped "{[/nbiot/v1/device/list],methods=[POST]}" onto public com.nhb.utils.nhb_utils.common.RestResultDto com.nhb.nb.controller.device.DeviceController.list()
+09:43:11.945,Mapped "{[/nbiot/v1/device/findById],methods=[POST]}" onto public com.nhb.utils.nhb_utils.common.RestResultDto com.nhb.nb.controller.device.DeviceController.findById(com.nhb.nb.request.device.DeviceRequest)
+09:43:11.946,Mapped "{[/nbiot/v1/device/modify],methods=[POST]}" onto public com.nhb.utils.nhb_utils.common.RestResultDto com.nhb.nb.controller.device.DeviceController.modify(com.nhb.nb.request.device.DeviceRequest)
+09:43:11.953,Mapped "{[/nbiot/v1/user/delete],methods=[POST]}" onto public com.nhb.utils.nhb_utils.common.RestResultDto<java.lang.Object> com.nhb.nb.controller.user.SysUserController.delete(com.nhb.nb.request.user.UserRequest)
+09:43:11.953,Mapped "{[/nbiot/v1/user/findById],methods=[POST]}" onto public com.nhb.utils.nhb_utils.common.RestResultDto<java.lang.Object> com.nhb.nb.controller.user.SysUserController.findById(com.nhb.nb.request.user.LoginRequest)
+09:43:11.954,Mapped "{[/nbiot/v1/user/add],methods=[POST]}" onto public com.nhb.utils.nhb_utils.common.RestResultDto<java.lang.Object> com.nhb.nb.controller.user.SysUserController.addUser(com.nhb.nb.request.user.UserRequest)
+09:43:11.955,Mapped "{[/nbiot/v1/user/findList],methods=[POST]}" onto public com.nhb.utils.nhb_utils.common.RestResultDto<java.lang.Object> com.nhb.nb.controller.user.SysUserController.findList(com.nhb.nb.request.user.UserRequest)
+09:43:11.955,Mapped "{[/nbiot/v1/user/login],methods=[POST]}" onto public com.nhb.utils.nhb_utils.common.RestResultDto<java.lang.Object> com.nhb.nb.controller.user.SysUserController.login(com.nhb.nb.request.user.LoginRequest)
+09:43:11.956,Mapped "{[/nbiot/v1/user/modify],methods=[POST]}" onto public com.nhb.utils.nhb_utils.common.RestResultDto<java.lang.Object> com.nhb.nb.controller.user.SysUserController.modifyUser(com.nhb.nb.request.user.UserRequest)
+09:43:11.962,Mapped "{[/swagger-resources]}" onto public org.springframework.http.ResponseEntity<java.util.List<springfox.documentation.swagger.web.SwaggerResource>> springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+09:43:11.964,Mapped "{[/swagger-resources/configuration/ui]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.UiConfiguration> springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+09:43:11.965,Mapped "{[/swagger-resources/configuration/security]}" onto public org.springframework.http.ResponseEntity<springfox.documentation.swagger.web.SecurityConfiguration> springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+09:43:11.974,Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+09:43:11.975,Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+09:43:13.670,Mapped "{[/loggers/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.get(java.lang.String)
+09:43:13.670,Mapped "{[/loggers/{name:.*}],methods=[POST],consumes=[application/vnd.spring-boot.actuator.v1+json || application/json],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.LoggersMvcEndpoint.set(java.lang.String,java.util.Map<java.lang.String, java.lang.String>)
+09:43:13.671,Mapped "{[/loggers || /loggers.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+09:43:13.672,Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+09:43:13.674,Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+09:43:13.674,Mapped "{[/env || /env.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+09:43:13.675,Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+09:43:13.677,Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+09:43:13.678,Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+09:43:13.681,Mapped "{[/info || /info.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+09:43:13.682,Mapped "{[/features || /features.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+09:43:13.683,Mapped "{[/health || /health.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(javax.servlet.http.HttpServletRequest,java.security.Principal)
+09:43:13.685,Mapped "{[/refresh || /refresh.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+09:43:13.687,Mapped "{[/auditevents || /auditevents.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.boot.actuate.endpoint.mvc.AuditEventsMvcEndpoint.findByPrincipalAndAfterAndType(java.lang.String,java.util.Date,java.lang.String)
+09:43:13.689,Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+09:43:13.691,Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+09:43:13.692,Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+09:43:13.693,Mapped "{[/archaius || /archaius.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+09:43:13.695,Mapped "{[/pause || /pause.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+09:43:13.697,Mapped "{[/env],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.value(java.util.Map<java.lang.String, java.lang.String>)
+09:43:13.697,Mapped "{[/env/reset],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.reset()
+09:43:13.698,Mapped "{[/service-registry/instance-status],methods=[GET]}" onto public org.springframework.http.ResponseEntity org.springframework.cloud.client.serviceregistry.endpoint.ServiceRegistryEndpoint.getStatus()
+09:43:13.699,Mapped "{[/service-registry/instance-status],methods=[POST]}" onto public org.springframework.http.ResponseEntity<?> org.springframework.cloud.client.serviceregistry.endpoint.ServiceRegistryEndpoint.setStatus(java.lang.String)
+09:43:13.700,Mapped "{[/resume || /resume.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+09:43:13.703,Mapped "{[/heapdump || /heapdump.json],methods=[GET],produces=[application/octet-stream]}" onto public void org.springframework.boot.actuate.endpoint.mvc.HeapdumpMvcEndpoint.invoke(boolean,javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws java.io.IOException,javax.servlet.ServletException
+09:43:13.704,Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/vnd.spring-boot.actuator.v1+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+09:43:13.705,Mapped "{[/restart || /restart.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.restart.RestartMvcEndpoint.invoke()
+09:43:14.034,Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+09:43:14.598,Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@31611954: startup date [Tue Feb 27 09:43:03 CST 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@106cc338
+09:43:14.716,Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+09:43:14.716,Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+09:43:14.799,Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+09:43:15.469,No URLs will be polled as dynamic configuration sources.
+09:43:15.469,To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+09:43:15.479,No URLs will be polled as dynamic configuration sources.
+09:43:15.480,To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+09:43:15.872,Registering beans for JMX exposure on startup
+09:43:15.891,Bean with name 'environmentManager' has been autodetected for JMX exposure
+09:43:15.896,Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+09:43:15.897,Bean with name 'refreshEndpoint' has been autodetected for JMX exposure
+09:43:15.898,Bean with name 'restartEndpoint' has been autodetected for JMX exposure
+09:43:15.900,Bean with name 'serviceRegistryEndpoint' has been autodetected for JMX exposure
+09:43:15.901,Bean with name 'refreshScope' has been autodetected for JMX exposure
+09:43:15.906,Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+09:43:15.925,Located managed bean 'restartEndpoint': registering with JMX server as MBean [org.springframework.cloud.context.restart:name=restartEndpoint,type=RestartEndpoint]
+09:43:15.952,Located managed bean 'serviceRegistryEndpoint': registering with JMX server as MBean [org.springframework.cloud.client.serviceregistry.endpoint:name=serviceRegistryEndpoint,type=ServiceRegistryEndpoint]
+09:43:15.966,Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+09:43:15.991,Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=31611954,type=ConfigurationPropertiesRebinder]
+09:43:15.999,Located managed bean 'refreshEndpoint': registering with JMX server as MBean [org.springframework.cloud.endpoint:name=refreshEndpoint,type=RefreshEndpoint]
+09:43:16.001,Registering beans for JMX exposure on startup
+09:43:16.342,Starting beans in phase 0
+09:43:16.357,Setting initial instance status as: STARTING
+09:43:16.453,Initializing Eureka in region us-east-1
+09:43:16.609,Using JSON encoding codec LegacyJacksonJson
+09:43:16.610,Using JSON decoding codec LegacyJacksonJson
+09:43:16.786,Using XML encoding codec XStreamXml
+09:43:16.787,Using XML decoding codec XStreamXml
+09:43:17.268,Resolving eureka endpoints via configuration
+09:43:17.512,Disable delta property : false
+09:43:17.513,Single vip registry refresh property : null
+09:43:17.513,Force full registry fetch : false
+09:43:17.513,Application is null : false
+09:43:17.513,Registered Applications size is zero : true
+09:43:17.513,Application version is -1: true
+09:43:17.513,Getting all instance registry info from the eureka server
+09:43:17.787,The response status is 200
+09:43:17.791,Starting heartbeat executor: renew interval is: 30
+09:43:17.796,InstanceInfoReplicator onDemand update allowed rate per min is 4
+09:43:17.801,Discovery Client initialized at timestamp 1519695797800 with initial instances count: 5
+09:43:17.856,Registering application nhb-nbiot with eureka with status UP
+09:43:17.856,Saw local status change event StatusChangeEvent [timestamp=1519695797856, current=UP, previous=STARTING]
+09:43:17.864,DiscoveryClient_NHB-NBIOT/xuyahui:nhb-nbiot:9091: registering service...
+09:43:17.867,Located managed bean 'auditEventsEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=auditEventsEndpoint]
+09:43:17.882,Located managed bean 'featuresEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=featuresEndpoint]
+09:43:17.903,Located managed bean 'requestMappingEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=requestMappingEndpoint]
+09:43:17.920,Located managed bean 'environmentEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=environmentEndpoint]
+09:43:17.931,Located managed bean 'healthEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=healthEndpoint]
+09:43:17.937,Located managed bean 'beansEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=beansEndpoint]
+09:43:17.941,Located managed bean 'infoEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=infoEndpoint]
+09:43:17.946,Located managed bean 'loggersEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=loggersEndpoint]
+09:43:17.955,DiscoveryClient_NHB-NBIOT/xuyahui:nhb-nbiot:9091 - registration status: 204
+09:43:17.963,Located managed bean 'metricsEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=metricsEndpoint]
+09:43:17.972,Located managed bean 'traceEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=traceEndpoint]
+09:43:17.978,Located managed bean 'dumpEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=dumpEndpoint]
+09:43:17.982,Located managed bean 'autoConfigurationReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=autoConfigurationReportEndpoint]
+09:43:17.986,Located managed bean 'configurationPropertiesReportEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=configurationPropertiesReportEndpoint]
+09:43:17.994,Located managed bean 'archaiusEndpoint': registering with JMX server as MBean [org.springframework.boot:type=Endpoint,name=archaiusEndpoint]
+09:43:17.996,Starting beans in phase 2147483647
+09:43:17.996,Context refreshed
+09:43:18.022,Found 1 custom documentation plugin(s)
+09:43:18.129,Scanning for api listing references
+09:43:18.399,Generating unique operation named: addUsingPOST_1
+09:43:18.407,Generating unique operation named: deleteUsingPOST_1
+09:43:18.415,Generating unique operation named: findByIdUsingPOST_1
+09:43:18.422,Generating unique operation named: listUsingPOST_1
+09:43:18.429,Generating unique operation named: modifyUsingPOST_1
+09:43:18.473,Generating unique operation named: deleteUsingPOST_2
+09:43:18.494,Generating unique operation named: findByIdUsingPOST_2
+09:43:18.642,Initializing ProtocolHandler ["http-nio-9091"]
+09:43:18.662,Starting ProtocolHandler ["http-nio-9091"]
+09:43:18.684,Using a shared selector for servlet write/read
+09:43:18.741,Tomcat started on port(s): 9091 (http)
+09:43:18.743,Updating port to 9091
+09:43:18.753,Started NhbNbApplication in 18.484 seconds (JVM running for 19.31)
+09:43:48.468,Initializing Spring FrameworkServlet 'dispatcherServlet'
+09:43:48.469,FrameworkServlet 'dispatcherServlet': initialization started
+09:43:48.522,FrameworkServlet 'dispatcherServlet': initialization completed in 53 ms
